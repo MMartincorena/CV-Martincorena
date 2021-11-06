@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url(/fonts/segoe-ui.otf);
+}
+
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+
+@media (min-width: 320px) {
+  a {
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    color: #fff;
+  }
+
+  hr {
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  ul {
+    margin-top: 10px;
+    margin-left: 10%;
+    color: #fff;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  .perfil {
+    height: 270px;
+    width: 100vw;
+    background-color: #0f3d60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fotoCV {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .foto {
+    height: 170px;
+    width: 170px;
+    margin: 15px;
+  }
+
+  .cuerpoDatos {
+    height: 480px;
+    width: 90vw;
+    background-color: #3280bc;
+    padding: 5% 5% 0% 5%;
+    margin-bottom: 20px;
+  }
+
+  .detallesPerfil {
+    width: 80%;
+    margin: 0% 5% 5% 5%;
+  }
+
+  .fila {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
+
+  .iconoPerfil {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .detalleIcono {
+    font-size: 17px;
+    color: #fff;
+  }
+
+  /* ---------------------------------------------------------- */
+  .titulo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .tituloExtra {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .paralelogramo {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 40px;
+    background: #0f3d60;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+  }
+  
+
+  .nombreSeccion {
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .nombreSeccionExtra {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .filaAlgo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .filaAlgoExtra {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .cuerpoDetalles {
+    padding: 0% 10% 0% 10%;
+    margin-bottom: 20px;
+  }
+
+  .iconoDetalle {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .detalleIconoDetalle {
+    font-size: 17px;
+    color: #fff;
+  }
+
+  .lista {
+    width: 90%;
+    height: 60px;
+    margin: 0% 5% 0% 5%;
+    display: flex;
+  }
+
+  .texLugar {
+    width: 25%;
+    text-align: center;
+    color: #000;
+  }
+
+  .texDetalle {
+    width: 70%;
+    margin-left: 15px;
+    padding-left: 15px;
+    color: #000;
+    border-left: 2px solid #0f3d60;
+    font-size: 15px;
+  }
+
+  .estado {
+    width: 5%;
+    color: #000;
+    text-align: center;
+  }
+
+  .detalleExtra {
+    margin-top: 15px;
+    color: #000;
+    margin-bottom: 100px;
+  }
+
+  button {
+    width: 220px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    bottom: -160%;
+    right: 20%;
+    background: #377aaa;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    color: #fff;
+    /* margin-bottom: 100px; */
+  }
+
+}
+
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+
+/* @media (min-width: 700px) {
+
+
+} */
+
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+
+@media (min-width: 1200px) {
+  
+  body {
+    padding: 0% 10% 0% 10%;
+  }
+
+p{
+  font-size: 15px;
+}
+
+  .todo {
+    display: flex;
+  }
+
+  .perfil {
+    height: 270px;
+    width: 100vw;
+    background-color: #0f3d60;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fotoCV {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+  .conteinerPerfil {
+    /* width: 400px; */
+    height: 100vh;
+    background-color: #3280bc;
+  }
+  .seccion {
+    margin-bottom: 25px;
+  }
+  .perfil {
+    width: 100%;
+    height: 40%;
+    margin: 5% 0 0 0;
+    border-bottom-left-radius: 60px solid transparent;
+  }
+
+  .detallesPerfil {
+    margin: 4% 5% 5% 5%;
+  }
+  .cuerpoDatos {
+    width: 350px;
+    margin: 0;
+    padding: 0px 25px;
+  }
+
+  .lista {
+    width: 90%;
+    height: 65px;
+    margin: 0% 5% 0% 5%;
+    display: flex;
+  }
+
+  .titulo {
+    margin-bottom: 20px;
+}
+
+.tituloExtra {
+  margin-bottom: 20px;
+}
+
+  .texDetalle{
+font-size: 16px;
+  }
+
+  .cuerpoDetalles {
+    width: 70vw;
+    margin: 0% 2%;
+    padding: 0;
+    display: flex;
+  }
+
+  .panelIzquierdo {
+    width: 90%;
+    margin: 0% 5%;
+  }
+
+  .panelDerecho {
+    width: 100%;
+    margin: 0% 0% 0% 5%;
+    position: relative;
+  }
+
+  button {
+    width: 200px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 5%;
+    right: 0%;
+    background: #377aaa;
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    color: #fff;
+  }
+  
+}
+
