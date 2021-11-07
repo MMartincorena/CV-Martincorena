@@ -1,0 +1,25 @@
+{
+  "name": "cv-martincorena",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "node": "^17.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMartincorena/CV-Martincorena.git"
+  },
+  "author": "Martin Martincorena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMartincorena/CV-Martincorena/issues"
+  },
+  "homepage": "https://github.com/MMartincorena/CV-Martincorena#readme"
+}
