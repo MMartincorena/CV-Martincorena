@@ -15,4 +15,4 @@ Curriculum personal - Martín Martincorena
 
 **Despliegue 📦**
 
-		•Heroku - https://mmartincorena.herokuapp.com/
+	https://mmartincorena.herokuapp.com/
